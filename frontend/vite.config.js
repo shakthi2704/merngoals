@@ -25,7 +25,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "https://merngoals.vercel.app/",
+        target: "https://merngoals-kmeikiwfh-shakthi2704.vercel.app/",
         changeOrigin: true,
       },
     },
